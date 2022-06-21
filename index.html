@@ -4,36 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
     <nav>
-      <h2>Répertoire de contqct</h2>
+      <h2>Répertoire de contact</h2>
     </nav>
 
     <div>
-      <div>
+      <div class="form-contact">
         <h2>Formulaire de contact</h2>
       </div>
 
       <form action="">
-        <label for="">Prénom</label>
+          <div>
+            <label for="">Prénom</label>
         <input type="text" />
-
-        <label for="">Nom</label>
+          </div>
+        
+        <div>
+            <label for="">Nom</label>
         <input type="text" />
-
-        <label for="">Groupe</label>
+        </div>
+        
+        <div>
+            <label for="">Groupe</label>
         <select name="" id="">
             <option value="">Web Devolopers</option>
             <option value="">Mobile Deveopers</option>
             <option value="">Data analyst</option>
         </select>
+        </div>
 
-        <textarea name="" id="" cols="30" rows="10">Bio</textarea>
-        <input type="file" value="choisir un fichier" />
-        <img src="" alt="" />
+        <div>
+            <textarea name="" id="" cols="30" rows="10">Bio</textarea>
+        </div>
 
+        <div>
+            <input type="file" value="choisir un fichier" />
+            <img src="" alt="" />
+        </div>
+        
         <div>
           <input type="submit" value="Créer"/>
         </div>
@@ -43,5 +55,7 @@
         </div>
       </form>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

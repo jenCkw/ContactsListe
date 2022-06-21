@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(43, 136, 243);
+    padding: 10px ;
+    color: white;
+}
+
+.form-contact{
+    background-color: rgb(43, 136, 243);
+    margin: 5px;
+    color: white;
+}
