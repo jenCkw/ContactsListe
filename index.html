@@ -1,68 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact list</title>
+</head>
+<body>
     <nav>
-      <h2>Répertoire de contact</h2>
+        <h2>Repetoire</h2>
     </nav>
-   
     <div class="container">
-        <div class="container-">
-            <div class="form-contact">
-              <h2>Formulaire de contact</h2>
+        <div class="contact">
+            <div class="header">
+                <h3>Formulaire de contact</h3>
             </div>
-      
-            <form  action="">
-              <div class="form-control">
-                <label for="" >Prénom</label>
-                <input type="text" />
-              </div>
-      
-              <div class="form-control">
-                <label for="">Nom</label>
-                <input type="text" />
-              </div>
-      
-              <div class="form-control">
-                <label for="">Groupe</label>
-                <select name="" id="">
-                  <option value="">Web Devolopers</option>
-                  <option value="">Mobile Deveopers</option>
-                  <option value="">Data analyst</option>
-                </select>
-              </div>
-      
-              <div class="form-control">
-                <textarea name="" id="" cols="30" rows="10">Bio</textarea>
-              </div>
-      
-              <div>
-                <input type="file" value="choisir un fichier" />
-                <img src="" alt="" />
-              </div>
-      
-              <div>
-                <input type="submit" value="Créer" />
-              </div>
-      
-              <div>
-                <input type="submit" value="Réinit" />
-              </div>
+            <form action="">
+                <div class="form-control">
+                    <label for="">Prenom</label>
+                    <input type="text">
+                </div>
+                <div class="form-control">
+                    <label for="">Nom</label>
+                    <input type="text">
+                </div>
+                <div class="form-control">
+                    <label for="">Groupe</label>
+                    <select name="jenny" id="groupe">
+                        <option value="jenny">jenny</option>
+                        <option value="claude">claude</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="">Bio</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="image">
+                    <input type="file" name="avatar" id="avatar">
+                    <img src="" alt="">
+                </div>
+                <div class="btn-control">
+                    <button class="creer" type="submit">Creer</button>
+                    <button class="reint" type="submit">Reint</button>
+                </div>
             </form>
-          </div>
-
-          <div>
-
-          </div>
+        </div>
+        <div class="list">
+            <div class="header">
+                <h3>Liste de contact</h3>
+            </div>
+        </div>
     </div>
-    
-
-    <script src="./script.js"></script>
-  </body>
+    <script src="index.js"></script>
+</body>
 </html>
